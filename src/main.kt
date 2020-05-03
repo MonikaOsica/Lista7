@@ -25,4 +25,13 @@ fun main() {
     var triangle2 = Triangle("Triangle1", 3, 4, 5, 6)
     triangle2.details(triangle2.getPerimeter(),triangle2.getArea())
 
+    println("Zadanie 5:")
+    val day = Week.Monday
+    println("It's ${day}. Is weekend now? ${day.isWeekend(day)}")
+    val day1 = Week.Sunday
+    println("It's ${day1}. Is weekend now? ${day1.isWeekend(day1)}")
+    val day2 = Week.Saturday
+    println("It's ${day2}. Is weekend now? ${day2.isWorkingDay(day2)}")
+    val day3 = Week.Thursday
+    println("It's ${day3}. Is weekend now? ${day3.isWorkingDay(day3)}")
 }
